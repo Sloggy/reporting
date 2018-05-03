@@ -25,6 +25,7 @@
 	<modules>
 		<module>reporting-core</module>
 		<module>renderers</module>
+		<module>routing</module>
 	</modules>
 
 	<repositories>
