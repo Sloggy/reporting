@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: renderer-docx
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+server:
+  port: 0
+renderer:
+  accept:
+    template-types:
+    - application/vnd.openxmlformats-officedocument.wordprocessingml.document
+    document-types:
+      - application/pdf
+      - application/vnd.openxmlformats-officedocument.wordprocessingml.document
+    data-types:
+      - application/json
